@@ -28,6 +28,13 @@ Preferences
 SharedStorage
 SharedStorage-wal
 
+# User configurations (exclude large binaries)
+User/globalStorage/**/install/
+User/globalStorage/**/*.dll
+User/globalStorage/**/*.exe
+User/globalStorage/**/*.so
+User/globalStorage/**/*.dylib
+
 # Node modules and dependencies
 node_modules/
 npm-debug.log*
